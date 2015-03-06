@@ -1,0 +1,18 @@
+{
+  "name": "guillaumebarranco/kebhub-api",
+  "description": "First version of Kebhub API for tests",
+  "version": "0.1",
+  "type": "library",
+  "keywords": ["Kebhub", "PHP", "API"],
+  "homepage": "https://github.com/guillaumebarranco/Kebhub-API",
+  "license": "GNU Public License",
+  "authors": [
+    {
+      "name": "Guillaume Barranco",
+      "homepage": "https://github.com/guillaumebarranco/"
+    }
+  ],
+  "autoload": {
+    "files": ["KebhubAPI.php"]
+  }
+}
