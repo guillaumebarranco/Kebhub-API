@@ -62,10 +62,13 @@ class KebhubAPIGet
         curl_close($ch);
 
         $get_json = json_decode($json);
-        
-        $this->access_token = $get_json->access_token;
 
-        return $this->access_token;
+        if(isset($get_json->access_token)) {
+            $this->access_token = $get_json->access_token;
+            return $this->access_token;
+        }
+
+        return 'The Access Token was not founded. Must be an error in your call. (May be your are in local).'
     }
     
     /**
