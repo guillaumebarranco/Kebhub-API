@@ -1,5 +1,7 @@
-# twitter-api-php-symfony
+# Kebhub-API
 A Repository for out Kebhub API utilisation
+
+
 <code>
     $settings = array(
         'client_id' => "YOUR CLIENT ID",
@@ -15,7 +17,8 @@ A Repository for out Kebhub API utilisation
 
     $access_token = $kebhub->getAccessToken(); // Get your access token 
 
-    $url = 'http://kebhub.com/api/get/'.$type.'/'.$limit.'/'.$fields.'?access_token='.$access_token; // Make the url request with your settings and     access_token
+    $url = 'http://kebhub.com/api/get/'.$type.'/'.$limit.'/'.$fields.'?access_token='.$access_token; 
+    // Make the url request with your settings and     access_token
 
     $json = $kebhub->performRequest($url, true); // ¨Perform the request and it's done !
     $datas = json_decode($json, true);
