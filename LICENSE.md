@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Guillaume Barranco (webarranco.fr)
+Copyright (c) 2015 Kebhub (kebhub.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a 
 copy of this software and associated documentation files (the "Software"),
