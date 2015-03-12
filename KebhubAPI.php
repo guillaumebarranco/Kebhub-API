@@ -1,6 +1,6 @@
 <?php
 
-namespace APIKebhub\kebhub;
+namespace ApiKebhub\kebhub;
 
 /**
  * Kebhub-API-PHP : Simple PHP calls to use Kebuhb API
@@ -13,7 +13,7 @@ namespace APIKebhub\kebhub;
  * @license  MIT License
  * @link     https://github.com/guillaumebarranco/Kebhub-API
  */
-class KebhubAPIGet
+class KebhubApiGet
 {
     private $client_id;
     private $secret_id;
@@ -68,7 +68,7 @@ class KebhubAPIGet
             return $this->access_token;
         }
 
-        return 'The Access Token was not founded. Must be an error in your call. (May be your are in local).'
+        return 'The Access Token was not founded. Must be an error in your call. (May be your are in local).';
     }
     
     /**
